@@ -128,14 +128,14 @@
         <td>计数</td>
         <td>计数器：<br />
         <code>C00-C99</code></td>
-        <td><code> </code>：让 Cxx 计数 0000000-9999999 次；<br />
+        <td><code>&nbsp;</code>：让 Cxx 计数 0000000-9999999 次；<br />
         <code>=</code>/<code>+</code>/<code>-</code>：给 Cxx 赋值 0000000-9999900 次；</td>
     </tr>
     <tr>
         <td>延时</td>
         <td>计时器：<br />
         <code>T00-T99</code></td>
-        <td><code> </code>：让 Txx 计时 00.00 秒-99:59 时<br />
+        <td><code>&nbsp;</code>：让 Txx 计时 00.00 秒-99:59 时<br />
         <code>=</code>/<code>+</code>/<code>-</code>：给 Txx 赋值 00.00 秒-99:59 时<br /><code>:</code>：让 Txx 计时 DTxx，人机界面的延时</td>
     </tr>
 </table>
@@ -187,14 +187,14 @@
     </tr>
     <tr>
         <td>定时器：<br /><code>T00-T59</code></td>
-        <td><code> </code>：定时器 Txx 以 0.01 秒精度倒计时；<br />
+        <td><code>&nbsp;</code>：定时器 Txx 以 0.01 秒精度倒计时；<br />
         <code>=</code>/<code>+</code>/<code>-</code>：定时器 Txx 通过 <code>=</code>/<code>+</code>/<code>-</code> 方式赋值；</td>
     </tr>
     <tr>
         <td>计数</td>
         <td>计数器：<br />
         <code>C00-C99</code></td>
-        <td><code> </code>：计数器 Cxx 以 1 次为单位计数；<br />
+        <td><code>&nbsp;</code>：计数器 Cxx 以 1 次为单位计数；<br />
         <code>=</code>/<code>+</code>/<code>-</code>：计数器 Cxx 以 <code>=</code>/<code>+</code>/<code>-</code> 方式赋值；</td>
     </tr>
     <tr>
