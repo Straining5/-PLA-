@@ -77,19 +77,26 @@
         <th>指令</th><th>操作对象</th><th>操作参数</th>
     </tr>
     <tr>
-        <td rowspan="3"><code>如果</code>、<br /><code>与</code>、<br /><code>或</code>、</td><td>端口: <code>X00-X31</code><br />端口: <code>Y00-Y31</code></td><td><code>闭合</code>：开关接通；<br /><code>断开</code>：开关断开；<br /><code>上跳</code>：开关接通瞬间——上升沿；<br /><code>下跳</code>：开关断开瞬间——下降沿；</td>
+        <td rowspan="3">如果、<br />与、<br />或、</td>
+        <td>端口: <code>X00-X31</code><br />端口: <code>Y00-Y31</code></td>
+        <td><code>闭合</code>：开关接通；<br /><code>断开</code>：开关断开；<br /><code>上跳</code>：开关接通瞬间——上升沿；<br /><code>下跳</code>：开关断开瞬间——下降沿；</td>
     </tr>
     <tr>
-        <td>计数器：<code>C00-C99</code></td><td><code>></code>/<code><</code>/<code>=</code>：0000000-9999900 次<br /><code>></code>/<code><</code>/<code>=</code>：DC00-DC99，人机界面的计数</td>
+        <td>计数器：<code>C00-C99</code></td>
+        <td><code>></code>/<code><</code>/<code>=</code>：0000000-9999900 次<br /><code>></code>/<code><</code>/<code>=</code>：DC00-DC99，人机界面的计数</td>
     </tr>
     <tr>
-        <td>计时器：<code>T00-T99</code></td><td><code>></code>/<code><</code>/<code>=</code>：00.00 秒-99:59 时<br /><code>></code>/<code><</code>/<code>=</code>：                          DT00-DT99，人机界面的延时</td>
+        <td>计时器：<code>T00-T99</code></td>
+        <td><code>></code>/<code><</code>/<code>=</code>：00.00 秒-99:59 时<br /><code>></code>/<code><</code>/<code>=</code>：DT00-DT99，人机界面的延时</td>
     </tr>
     <tr>
-        <td rowspan="2"><code>输出</code></td><td>端口：<code>Y00-Y31</code></td><td><code>闭合</code>：开关接通，并自锁；<br /><code>断开</code>：开关断开，并自锁；<br /><code>点动</code>：开关接通，不自锁；<br /><code>反转</code>：开关接通/断开切换；</td>
+        <td rowspan="2">输出</td>
+        <td>端口：<code>Y00-Y31</code></td>
+        <td><code>闭合</code>：开关接通，并自锁；<br /><code>断开</code>：开关断开，并自锁；<br /><code>点动</code>：开关接通，不自锁；<br /><code>反转</code>：开关接通/断开切换；</td>
     </tr>
     <tr>
-        <td>程序组：<code>Z00-Z17</code></td><td><code>运行</code>：从当前位置启动工作；<br /><code>停止</code>：停在程序的开始处；<br /><code>暂停</code>：停在当前位置；<br /><code>重启</code>：从头开始运行；<br /><code>快进</code>：当前延时归零；<br /><code>运行/停止</code>：两者切换；<code>暂停/运行</code>：两者切换；</td>
+        <td>程序组：<code>Z00-Z17</code></td>
+        <td><code>运行</code>：从当前位置启动工作；<br /><code>停止</code>：停在程序的开始处；<br /><code>暂停</code>：停在当前位置；<br /><code>重启</code>：从头开始运行；<br /><code>快进</code>：当前延时归零；<br /><code>运行/停止</code>：两者切换；<code>暂停/运行</code>：两者切换；</td>
     </tr>
     <tr>
         <td>计数</td><td>计数器：<code>C00-C99</code></td><td><code>空格</code>：让 Cxx 计数 0000000-9999999次；<br /><code>=</code>/<code>+</code>/<code>-</code>：给 Cxx 赋值 0000000-9999900 次；</td>
